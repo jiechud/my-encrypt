@@ -8,6 +8,10 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jiechud/zet-encrypt.git"
+  },
   "dependencies": {
     "js-base64": "^2.4.0"
   }
