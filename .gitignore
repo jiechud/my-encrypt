@@ -1,0 +1,13 @@
+node_modules
+master_node_modules
+dist
+newdist
+distend
+tmp*
+chart.md
+.vscode
+npm-debug*
+.idea
+stats.json
+pfdist
+server.js
