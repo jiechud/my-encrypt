@@ -15,7 +15,7 @@ ZetEncrypt.prototype.encrypt = function(value) {
         throw Error('ZetEncrypt Execption', '值不是一个字符')
     }
     var charArr = []
-    for (let i = 0; i < value.length; i++) {
+    for (var i = 0; i < value.length; i++) {
         var curr = value[i].charCodeAt();
         curr = curr ^ this.secretKey;
         curr = String.fromCharCode(curr);
@@ -31,7 +31,7 @@ ZetEncrypt.prototype.decrypt = function(value) {
     }
     var decodeValue = Base64.decode(value);
     var charArr = []
-    for (let i= 0; i < decodeValue.length; i++) {
+    for (var i= 0; i < decodeValue.length; i++) {
         var curr = decodeValue[i].charCodeAt();
             curr = curr ^ this.secretKey;
             curr = String.fromCharCode(curr);
