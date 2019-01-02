@@ -1,4 +1,4 @@
-# zet-encrypt
+# my-encrypt
 
 
 ## Install
